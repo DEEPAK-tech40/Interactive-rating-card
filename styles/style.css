@@ -1,0 +1,148 @@
+:root {
+    --bodyBg: hsl(225, 8%, 9%);
+    --cardBg: hsla(213, 20%, 18%, 0.651);
+    --iBg: hsla(214, 11%, 24%, 0.432);
+    --btBg: hsl(25, 97%, 53%);
+    --bFontColor: hsl(216, 12%, 54%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bodyBg);
+    font-family: 'Overpass', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+p {
+    font-size: 15px;
+    color: var(--bFontColor);
+}
+
+.main {
+    margin-top: 95px;
+    padding: 35px 35px 27px 35px;
+    height: 25.5rem;
+    width: 24.5rem;
+    background-color: var(--cardBg);
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(5, 4rem);
+    grid-template-rows: 3rem 4rem 4rem 4rem;
+    row-gap: 15px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/2;
+    background-color: var(--iBg);
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+.content {
+    grid-column: 1/-1;
+    grid-row: 2/4;
+    font-weight: 400;
+    padding: 0px 25px 0px 0px;
+}
+
+.ratings {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rb {
+    background-color: var(--iBg);
+    color: var(--bFontColor);
+    font-weight: 700;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn {
+    grid-column: 1/-1;
+    background-color: var(--btBg);
+    color: white;
+    font-weight: 600;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: var(--btBg);
+    font-weight: 600;
+}
+
+.thanks-container {
+    margin-top: -410px;
+    padding: 35px 35px 27px 35px;
+    height: 25.5rem;
+    width: 24.5rem;
+    background-color: var(--cardBg);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    visibility: hidden;
+}
+
+.outcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--iBg);
+    color: var(--btBg);
+    border-radius: 100px;
+    width: 11.7rem;
+    height: 1.9rem;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 2px;
+}
+
+.thanks-content {
+    text-align: center;
+    width: 21rem;
+}
+
+footer {
+    margin: 20px;
+}
+
+footer>p>a {
+    color: var(--btBg);
+    text-decoration: none;
+}
