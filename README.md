@@ -4,6 +4,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Overview
 
+![desktop-preview](https://user-images.githubusercontent.com/94350356/186406511-0cb15837-e024-47e7-a924-6eacda2f57d0.jpg)
+
 ### The challenge
 
 Users should be able to:
@@ -15,10 +17,19 @@ Users should be able to:
 
 ### Screenshot
 
+Design:
+
+![2022-08-24 (3)](https://user-images.githubusercontent.com/94350356/186406649-a398e289-8d23-4f28-9f8d-14acbdb001e3.png)
+
+![2022-08-24 (4)](https://user-images.githubusercontent.com/94350356/186406699-e6e8c4ee-9eea-4596-9643-1a4278decbbf.png)
+
+![2022-08-24 (6)](https://user-images.githubusercontent.com/94350356/186406762-11e9841c-610d-447c-9a7c-978da78e378f.png)
+
+
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/interactive-rating-card-using-css-grid-and-js-ccY2GJ8ktQ)
+- Live Site URL: [Live site](https://deepak-tech40-rating-card.netlify.app/)
 
 ## My process
 
