@@ -60,7 +60,7 @@ p {
     grid-column: 1/-1;
     grid-row: 2/4;
     font-weight: 400;
-    padding: 0px 25px 0px 0px;
+    padding: 0px 10px 0px 0px;
 }
 
 .ratings {
@@ -155,25 +155,26 @@ footer>p>a {
 
     main {
         height: 22rem;
-        width: 17rem;
+        width: 20rem;
     }
 
     .main,
     .thanks-container {
-        width: 15rem;
-        height: 18.5rem;
+        width: 18.5rem;
+        height: 20rem;
         padding: 20px;
         row-gap: 12px;
-        grid-template-rows: 2rem 3rem 3rem 3rem;
+        grid-template-rows: 2rem 3.5rem 3.5rem 3.5rem;
     }
 
     .thanks-container {
         margin-top: -295px;
     }
 
-    .icon {
-        height: 35px;
-        width: 35px;
+    .icon,
+    .rb {
+        height: 37px;
+        width: 37px;
     }
 
     .image {
@@ -181,15 +182,15 @@ footer>p>a {
     }
 
     .outcome {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .ratings {
@@ -197,13 +198,8 @@ footer>p>a {
         justify-content: space-around;
     }
 
-    .rb {
-        height: 35px;
-        width: 35px;
-    }
-
     .btn {
-        height: 1.7rem;
+        height: 2rem;
         font-size: 12px;
     }
 
