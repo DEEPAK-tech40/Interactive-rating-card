@@ -21,6 +21,10 @@ body {
     background-color: var(--bodyBg);
 }
 
+main {
+    position: relative;
+}
+
 h1 {
     color: white;
     font-weight: 700;
@@ -42,6 +46,7 @@ p {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 3rem 4rem 4rem 4rem;
     row-gap: 15px;
+    position: absolute;
     /* visibility: hidden; */
 }
 
@@ -107,7 +112,6 @@ p {
 }
 
 .thanks-container {
-    margin-top: -410px;
     padding: 35px 35px 27px 35px;
     height: 25.5rem;
     width: 24.5rem;
@@ -119,6 +123,7 @@ p {
     gap: 20px;
     padding: 50px;
     visibility: hidden;
+    /* position: absolute; */
 }
 
 
@@ -161,20 +166,16 @@ footer>p>a {
     .main,
     .thanks-container {
         width: 18.5rem;
-        height: 20rem;
+        height: 20.2rem;
         padding: 20px;
         row-gap: 12px;
         grid-template-rows: 2rem 3.5rem 3.5rem 3.5rem;
     }
 
-    .thanks-container {
-        margin-top: -295px;
-    }
-
     .icon,
     .rb {
-        height: 37px;
-        width: 37px;
+        height: 40px;
+        width: 40px;
     }
 
     .image {
@@ -199,7 +200,7 @@ footer>p>a {
     }
 
     .btn {
-        height: 2rem;
+        height: 2.2rem;
         font-size: 12px;
     }
 
